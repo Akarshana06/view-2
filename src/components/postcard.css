@@ -1,0 +1,69 @@
+
+.post-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    transition: transform 0.3s ease;
+    margin-bottom: 20px; /* Add margin-bottom to create space between posts */
+  }
+  
+  .post-card:hover {
+    transform: scale(1.05);
+  }
+  
+  
+  .post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 12px;
+    object-fit: cover;
+  }
+  
+  .username {
+    font-weight: bold;
+    color: #333;
+    font-size: 1.1rem;
+  }
+  
+  /* Post content (text) */
+  .post-content {
+    margin: 15px 0;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Like button styling */
+  .like-button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .like-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .like-button.liked {
+    background-color: #ff4081;
+  }
+  
+  .like-button.liked:hover {
+    background-color: #e5006d;
+  }
+  
